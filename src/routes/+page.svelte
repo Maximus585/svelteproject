@@ -12,7 +12,7 @@
                         <p class="text-2">Lorem ipsum dolor sit amet.</p>
                     </h1>
                 </div>
-                <h2 class="subtible">
+                <h2 class="subtitle">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolorum velit deserunt.
                 </h2>
                 <div style="color:black" class="scroll-button animate-scroll" tabindex="O">
@@ -65,6 +65,11 @@
     .info h2 {
         max-width: 65ch;
         font-weight: 200;
+        margin-top: 0.50rem;
+    }
+
+    .background-div{
+        background-color: #ecebe8;
         width: 100%;
         height: 56vh;
         margin: -205px;
