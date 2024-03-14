@@ -36,7 +36,7 @@
             <span class="todo__text">{item.task}</span>
             <div class="todo__buttons">
                 <button class="complete" on:click={()=>complete(index)}>
-                    добавить
+                    выполнено
                 </button>
                 <button class="delete" on:click={()=>remove(index)}>
                     удалить
