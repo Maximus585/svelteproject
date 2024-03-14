@@ -16,7 +16,7 @@
 
     import Icon from 'E:/git/svelteproject/src/components/icon.svelte';
     function remove(index){
-        todoList.slice(index, 1);
+        todoList.splice(index, 1);
         todoList = todoList;
     }
 
@@ -36,10 +36,10 @@
             <span class="todo__text">{item.task}</span>
             <div class="todo__buttons">
                 <button class="complete" on:click={()=>complete(index)}>
-                    <Icon name="check-mark"/>
+                    добавить
                 </button>
                 <button class="delete" on:click={()=>remove(index)}>
-                    <Icon name="delete"/>
+                    удалить
                 </button>
             </div>
         </div>                      
@@ -111,7 +111,7 @@
     }
 
     button{
-        background-color: transparent;
+        background-color: black;
         border: none;
     }
     button.delete,
